@@ -1,19 +1,19 @@
 # EconStat Analyzer
 
-A Java console application that analyzes economic indicator data
-(GDP growth, inflation, unemployment) and reports statistical summaries.
+A Java console application that analyzes economic indicator data (such as GDP growth, inflation, and unemployment) and generates summary statistical reports.
 
-## What It Demonstrates
-- Menu-driven program flow with input validation
-- Core statistical calculations: mean, median, mode, and range
-- A hand-implemented bubble sort algorithm used to compute the median
-- Nested-loop frequency analysis to detect modal values
-- Threshold-based classification logic (stable / moderate / volatile)
-  and anomaly detection against the dataset mean
-- Defensive input handling to prevent crashes on non-numeric input
+## Features & Highlights
 
-## How to Run
-\`\`\`
-javac EconStatAnalyzer.java
-java EconStatAnalyzer
-\`\`\`
+- **Interactive Console Menu**: Easy-to-use menu-driven program flow with input validation.
+- **Statistical Calculations**: Computes core descriptive statistics, including mean, median, mode, and range.
+- **Custom Sorting**: Employs a hand-implemented bubble sort algorithm to order dataset values for median calculation.
+- **Frequency Analysis**: Uses nested-loop frequency analysis to identify modal values.
+- **Data Classification & Anomaly Detection**: Applies threshold-based logic to classify dataset stability (stable, moderate, or volatile) and flags potential anomalies against the dataset mean.
+- **Defensive Input Handling**: Robust validation prevents crashes caused by non-numeric inputs or empty entries.
+
+## Project Structure
+
+```text
+econstat-analyzer/
+├── EconStatAnalyzer.java   # Main Java source file containing application logic
+└── README.md               # Documentation
